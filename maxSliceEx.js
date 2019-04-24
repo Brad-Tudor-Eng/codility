@@ -9,11 +9,6 @@ const golden_max_slice = (A) => {
 
         maxEnding = Math.max(number,maxEnding + number)
         maxSlice = Math.max(maxSlice, maxEnding)
-        console.log(`
-            Number: ${number}
-            Max Ending: ${maxEnding}
-            MaxSlice: ${maxSlice}
-        `)
     }
 
     return maxSlice
